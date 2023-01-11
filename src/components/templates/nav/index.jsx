@@ -6,7 +6,7 @@ import PitukuLogo from "src/assets/nav/pituku-logo.png";
 
 const Nav = () => {
   const [navActive, setNavActive] = useState(false);
-  const [settingActive, setSettingActive] = useState(true);
+  const [settingActive, setSettingActive] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
