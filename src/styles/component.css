@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-orange-200 {
+    background: #ffecb3;
+}
+
+.bg-green-200 {
+    background: #c8e6c9;
+}
+
+.bg-green-600 {
+    background: #4caf50;
+}
+
+.text-green-600 {
+    color: #4caf50;
+}
+
+.border-green-600 {
+    border-color: #4caf50;
+}
+
+.bg-green-800 {
+    background: #2e7d32;
+}
+
+.text-orange-600 {
+    color: #ff6f00;
+}
+
+.bg-blue-400 {
+    background: #2196f3;
+}
+
+/* templates */
+
+.payment-slider .swiper {
+    padding: 32px 0 32px 0;
+}
+
+.payment-slider .swiper-pagination {
+    top: 0 !important;
+    bottom: auto !important;
+}
+
+.payment-slider .swiper-pagination-bullet {
+    height: 12px !important;
+    width: 12px !important;
+    border: 2px solid #4caf50;
+    background: #fff;
+}
+
+.payment-slider .swiper-pagination-bullet-active {
+    background: #4caf50;
+}
+
+.hero-slider .swiper {
+    padding: 32px 0 32px 0;
+}
+
+.hero-slider .swiper-pagination {
+    display: none;
+    bottom: 0 !important;
+}
+
+.hero-slider .swiper-pagination-bullet {
+    height: 12px !important;
+    width: 12px !important;
+    border: 2px solid #4caf50;
+    background: #fff;
+}
+
+.hero-slider .swiper-pagination-bullet-active {
+    margin-bottom: -2px !important;
+    height: 16px !important;
+    width: 16px !important;
+    background: #4caf50;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-slider .swiper-pagination {
+        display: block;
+    }
+}
+
+.button-testimonials {
+    display: block;
+}
+
+@media screen and (max-width: 1200px) {
+    .button-testimonials {
+        display: none;
+    }
+}
